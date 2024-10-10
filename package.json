@@ -25,7 +25,7 @@
     "@nestjs/core": "^10.4.4",
     "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^10.4.4",
-    "@nestjs/swagger": "^7.1.13",
+    "@nestjs/swagger": "^7.4.2",
     "joi": "^17.13.3",
     "passport-zitadel": "^1.0.26",
     "reflect-metadata": "^0.1.14",
