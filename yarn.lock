@@ -3522,10 +3522,15 @@ joi@^17.13.3:
     "@sideway/formula" "^3.0.1"
     "@sideway/pinpoint" "^2.0.0"
 
-jose@^4.15.1, jose@^4.9.3:
+jose@^4.15.1:
   version "4.15.9"
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.15.9.tgz#9b68eda29e9a0614c042fa29387196c7dd800100"
   integrity sha512-1vUQX+IdDMVPj4k8kOxgUqlcK518yluMuGZwqlr44FS1ppZB/5GWh4rZG89erpOBOJjU/OBsnCVFfapsRz6nEA==
+
+jose@^5.0.0:
+  version "5.9.6"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-5.9.6.tgz#77f1f901d88ebdc405e57cce08d2a91f47521883"
+  integrity sha512-AMlnetc9+CV9asI19zHmrgS/WYsWUwCn2R7RzlbJWD7F9eWYUTGyBmU9o6PxngtLGOiDGPRu+Uc4fhKzbpteZQ==
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -4089,21 +4094,21 @@ passport-strategy@1.x.x:
   resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
   integrity sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==
 
-passport-zitadel@^1.0.26:
-  version "1.0.26"
-  resolved "https://registry.yarnpkg.com/passport-zitadel/-/passport-zitadel-1.0.26.tgz#15a2a047ca124d1aecdea67fcaba88d23da19cd5"
-  integrity sha512-JiiPnWnFokg9BdJRJmdXV3SAutUp5vcOKBk1c9NxK2M6dkb/XxylDExYQ+dOYy2mhsNMW/GRz1bj/EsbFlY5RA==
+passport-zitadel@^1.1.31:
+  version "1.1.31"
+  resolved "https://registry.yarnpkg.com/passport-zitadel/-/passport-zitadel-1.1.31.tgz#f12d6c1162b97dfd1b2788917c5ca9300ceb7a63"
+  integrity sha512-PKPh7FeXBAuOWwnwAMaCkvQaTrWqDXBSohjmF5WxF3us6I58X1fRiqFhG2yyCXIn6lUU4MRZcBKP8xIc2CBZuw==
   dependencies:
     axios "^1.0.0"
-    jose "^4.9.3"
+    jose "^5.0.0"
     node-rsa "^1.1.1"
     openid-client "^5.1.9"
-    passport "^0.6.0"
+    passport "^0.7.0"
 
-passport@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/passport/-/passport-0.6.0.tgz#e869579fab465b5c0b291e841e6cc95c005fac9d"
-  integrity sha512-0fe+p3ZnrWRW74fe8+SvCyf4a3Pb2/h7gFkQ8yTJpAO50gDzlfjZUZTO1k5Eg9kUct22OxHLqDZoKUWRHOh9ug==
+passport@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/passport/-/passport-0.7.0.tgz#3688415a59a48cf8068417a8a8092d4492ca3a05"
+  integrity sha512-cPLl+qZpSc+ireUvt+IzqbED1cHHkDoVYMo30jbJIdOOjQ1MQYZBPiNvmi8UM6lJuOpTPXJGZQk0DtC4y61MYQ==
   dependencies:
     passport-strategy "1.x.x"
     pause "0.0.1"
