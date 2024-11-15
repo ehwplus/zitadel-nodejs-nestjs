@@ -26,6 +26,8 @@
     "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^10.4.4",
     "@nestjs/swagger": "^7.4.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "joi": "^17.13.3",
     "passport-zitadel": "^1.1.31",
     "reflect-metadata": "^0.2.2",
@@ -77,5 +79,6 @@
     "moduleNameMapper": {
       "^@auth/zitadel-auth(|/.*)$": "<rootDir>/libs/zitadel-auth/src/$1"
     }
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }

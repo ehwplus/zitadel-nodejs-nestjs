@@ -11,6 +11,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
     "noImplicitAny": false,
@@ -19,12 +20,8 @@
     "noFallthroughCasesInSwitch": false,
     // "typeRoots": ["./@types", ".yarn/cache/**/node_modules/@types"]
     "paths": {
-      "@auth/zitadel-auth": [
-        "libs/zitadel-auth/src"
-      ],
-      "@auth/zitadel-auth/*": [
-        "libs/zitadel-auth/src/*"
-      ]
+      "@auth/zitadel-auth": ["libs/zitadel-auth/src"],
+      "@auth/zitadel-auth/*": ["libs/zitadel-auth/src/*"]
     }
   }
 }

@@ -13,7 +13,8 @@ import { NestFactory, Reflector } from '@nestjs/core';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import * as fs from 'fs';
 import { AppModule } from './app.module';
-import path from 'path';
+import * as packageJson from '../package.json';
+import * as path from 'path';
 
 async function bootstrap() {
   const appOptions: NestApplicationOptions = {
@@ -46,16 +47,13 @@ async function bootstrap() {
   );
   const authority: string = config.getOrThrow<string>('IDP_AUTHORITY');
 
-  // FIXME json import assertions in the future
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const pjson = require(path.join('..', 'package.json'));
   const swaggerDocument = new DocumentBuilder()
     .setTitle('Zitadel NestJs Example')
     .setTermsOfService('http://swagger.io/terms/')
     .setExternalDoc('Find out more about Swagger', 'http://swagger.io/')
     .setContact('Contact the developer', '', 'mail@example.com')
     .setLicense('Apache 2.0', 'http://www.apache.org/licenses/LICENSE-2.0.html')
-    .setVersion(pjson.version)
+    .setVersion(packageJson.version)
     // Authentication security by token introspection
     .addSecurity('zitadel-jwt', {
       type: 'openIdConnect',
