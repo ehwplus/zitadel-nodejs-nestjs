@@ -770,16 +770,16 @@
   resolved "https://registry.yarnpkg.com/@nestjs/passport/-/passport-10.0.3.tgz#26ec5b2167d364e04962c115fcef80d10e185367"
   integrity sha512-znJ9Y4S8ZDVY+j4doWAJ8EuuVO7SkQN3yOBmzxbGaXbvcSwFDAdGJ+OMCg52NdzIO4tQoN4pYKx8W6M0ArfFRQ==
 
-"@nestjs/platform-express@^10.4.8":
-  version "10.4.8"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-10.4.8.tgz#fe2ff3ce96ad606e5c5c7a652b3c73dafc317b61"
-  integrity sha512-bDz6wQD9LzGeK6uAAFv9l9AbrpyPwHStNObL8J95HBAXJesOblVlQMBAhdfci1YVMQUfOc36qq0IpRSa1II9Mg==
+"@nestjs/platform-express@^10.4.12":
+  version "10.4.12"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-10.4.12.tgz#2a9c3ee053b29083e154d6622b8ded4e284da894"
+  integrity sha512-+m8BQas9mnY29Y6rZv8EUqIYwcta99/dTiGIUy48LB/+YoAyDTEHpsLd2+rpetk54niGgKJYclCZRUwRcjrYYA==
   dependencies:
     body-parser "1.20.3"
     cors "2.8.5"
     express "4.21.1"
     multer "1.4.4-lts.1"
-    tslib "2.7.0"
+    tslib "2.8.1"
 
 "@nestjs/schematics@^10.0.1", "@nestjs/schematics@^10.2.3":
   version "10.2.3"
