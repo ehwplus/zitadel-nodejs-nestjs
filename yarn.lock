@@ -4139,10 +4139,10 @@ passport-strategy@1.x.x:
   resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
   integrity sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==
 
-passport-zitadel@^1.1.31:
-  version "1.1.31"
-  resolved "https://registry.yarnpkg.com/passport-zitadel/-/passport-zitadel-1.1.31.tgz#f12d6c1162b97dfd1b2788917c5ca9300ceb7a63"
-  integrity sha512-PKPh7FeXBAuOWwnwAMaCkvQaTrWqDXBSohjmF5WxF3us6I58X1fRiqFhG2yyCXIn6lUU4MRZcBKP8xIc2CBZuw==
+passport-zitadel@^1.1.34:
+  version "1.1.34"
+  resolved "https://registry.yarnpkg.com/passport-zitadel/-/passport-zitadel-1.1.34.tgz#1e49ed3f30f08ceb30efed5461b03b8bc81e7d78"
+  integrity sha512-4ZeIDKnz3W/b7ig94HqL+jY5Du59/op+iYIa/eFc6MJ7cqmUJdoTCxyLOdM+GBlGHEaJnHobedK3KaQCWdvZJQ==
   dependencies:
     axios "^1.0.0"
     jose "^5.0.0"
