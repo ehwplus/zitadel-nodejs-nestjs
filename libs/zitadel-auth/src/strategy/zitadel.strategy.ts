@@ -15,4 +15,9 @@ export class ZitadelStrategy extends PassportStrategy(
   ) {
     super(options);
   }
+  // Required due to PassportStrategy's abstract declaration
+  async validate(payload: ZitadelUser): Promise<ZitadelUser> {
+    // Return the payload as-is since it already contains all the user information
+    return payload;
+  }
 }
