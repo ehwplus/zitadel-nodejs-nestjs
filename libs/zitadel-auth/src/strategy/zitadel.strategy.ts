@@ -3,6 +3,7 @@ import { PassportStrategy } from '@nestjs/passport';
 import { ZitadelIntrospectionStrategy } from 'passport-zitadel';
 import { MODULE_OPTIONS_TOKEN } from '../zitadel-auth.module-definition';
 import { ZitadelAuthModuleConfig } from '../interfaces/zitadel-auth-module-config.interface';
+import { ZitadelUser } from '../interfaces/zitadel-user.request';
 
 @Injectable()
 export class ZitadelStrategy extends PassportStrategy(
