@@ -27,7 +27,7 @@
     "@nestjs/platform-express": "^10.4.15",
     "@nestjs/swagger": "^8.1.1",
     "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.1",
+    "class-validator": "^0.14.2",
     "joi": "^17.13.3",
     "passport-zitadel": "^1.1.39",
     "reflect-metadata": "^0.2.2",
