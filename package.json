@@ -29,7 +29,7 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2",
     "joi": "^18.0.1",
-    "passport-zitadel": "^1.2.1",
+    "passport-zitadel": "^1.2.3",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
